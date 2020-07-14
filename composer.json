@@ -1,0 +1,15 @@
+{
+    "name": "Notes Tutorial",
+    "description": "Note app",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Andjela Ristovic"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>notestutorial</id>
+    <name>Notes Tutorial</name>
+    <summary>Note app</summary>
+    <description><![CDATA[Note app]]></description>
+    <version>0.0.4</version>
+    <licence>agpl</licence>
+    <author mail="ristovic.andja@gmail.com" >Andjela Ristovic</author>
+    <namespace>NotesTutorial</namespace>
+    <category>office</category>
+    <bugs>https://github.com/nextcloud/app-tutorial</bugs>
+    <dependencies>
+        <nextcloud min-version="13" max-version="13"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Beleske</name>
+            <route>notestutorial.page.index</route>
+        </navigation>
+    </navigations>
+</info>
